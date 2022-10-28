@@ -6,6 +6,11 @@
 SRC_DIR="https://raw.githubusercontent.com/lynxthecat/cake-autorate/main/"
 DOC_URL="https://github.com/lynxthecat/CAKE-autorate#installation-on-openwrt"
 
+if ! type opkg  &> /dev/null
+then
+    echo "*** Install Entware! ***"
+    exit
+    
 # Retrieve required packages
 opkg update
 opkg install bash iputils-ping fping coreutils-mkfifo
