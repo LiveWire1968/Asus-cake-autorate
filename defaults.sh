@@ -34,7 +34,7 @@ log_file_max_size_KB=2000  # maximum KB (i.e. bytes/1024) worth of log lines bet
 
 # log file path defaults to /var/log/
 # or, if set below, then ${log_file_path_override}
-log_file_path_override=""
+log_file_path_override="/tmp"
 
 # *** STANDARD CONFIGURATION OPTIONS ***
 
