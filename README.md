@@ -10,4 +10,4 @@ git clone https://github.com/LiveWire1968/Asus-cake-autorate.git,
 cd Asus-cake-autorate,
 chmod +x *,
 cp * /jffs/scripts,
-echo /jffs/scripts/launcher.sh >> /jffs/scripts/services-event
+echo /jffs/scripts/launcher.sh >> /jffs/scripts/service-event
