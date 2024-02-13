@@ -10,5 +10,5 @@ git clone https://github.com/LiveWire1968/Asus-cake-autorate.git,
 cd Asus-cake-autorate,
 chmod +x *,
 cp * /jffs/scripts,
-echo /jffs/scripts/launcher.sh >> /jffs/scripts/services-start,
+echo /jffs/scripts/launcher.sh >> /jffs/scripts/post-mount,
 Edit config.primary.sh for changes.
